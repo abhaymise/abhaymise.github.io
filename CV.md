@@ -44,7 +44,6 @@ With my extensive experience, I am well-equipped and prepared to take on roles, 
 - Developed a privacy blur feature for archived video streams.
   - Employed lightweight object tracking and detectors to reduce processing needs.
   - Ensured real-time video processing while obfuscating individuals' identities.
-  - Improved security and privacy standards of the video archive system.
   - Collaborated for seamless integration and performance optimization.
 - Mentored junior team members, fostering their growth and enhancing the overall team's performance.
 
