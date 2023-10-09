@@ -1,0 +1,74 @@
+Abhay Kumar
+----------
+Bangalore,Karnataka,India
+
+Email : **abhay8280@gmail.com** | Phone : **+91-9731-812-812**
+
+[LinkedIn Profile](https://in.linkedin.com/in/awesomeabhay)
+| [Github Profile](https://github.com/abhaymise/abhaymise.github.io)
+
+## About Me:
+Passionate and accomplished Machine Learning Professional with a decade of hands-on expertise in Computer Vision, Natural Language Processing, Recommender Systems, and complex problem-solving. Proven track record of leading teams, engaging with clients, and contributing impactful research to the field. A dedicated individual with a passion for innovation and a drive to deliver cutting-edge solutions.
+## Objective 
+With my extensive experience, I am well-equipped and prepared to take on roles, in the field of Machine Learning, where I can drive impactful innovation, mentor talent, and contribute to organizational excellence and growth.
+
+## Professional Experience:
+### Machine Learning Lead - Target Corporation  
+**Bangalore | Feb, 2021 – Present**
+  - Developed and implemented anomaly detection techniques, reducing abnormal data inflow into the pipeline by 8%.
+  - Led the development of invoice analysis techniques, digitizing invoices and enabling cross-verification of items, leading to a 9% reduction in invoice processing time.
+  - Engineered a real-time safety monitoring solution using object detection and tracking, Improved safety by reducing incidents by 31%, and optimized the solution for deployment on low-compute infrastructure.
+  - Mentored junior team members, fostering their growth and enhancing the overall team's performance.
+
+### Senior Data Scientist - Embibe
+**Bangalore | May, 2019 – Jan, 2021**
+- Contributed to image asset tagging in the academic domain, enhancing content organization and search-ability.
+- Developed question tagging using both text and image content, enabling better content recommendation and search accuracy.
+
+### Senior Data Scientist - ClipIndia
+**Bangalore | Sep, 2018 – April, 2019**
+- Implemented NSFW video classification for Content Moderation, maintaining a clean platform by automatically detecting obscene content, leading to a 28% reduction in inappropriate content.
+- Designed a video asset tagging system with multiple attributes, improving content discoverability and feed ranking, resulting in a 3%  increase in DAU.
+
+### Senior Data Scientist - Cogknit Semantics
+**Bangalore | Sep, 2015 – Sep, 2018**
+- Spearheaded the catalogue filtration project, ensuring accurate product categorization on the .com website, resulting in a 12% reduction in incorrect product placements.
+  - Collaborated directly with clients to understand their specific business requirements and challenges that could be addressed through our Machine Learning capabilities.
+  - Led a high-performing team, taking responsibility for collecting client requirements, translating them into technical specifications, and effectively communicating these requirements to the team.
+  - Played a key role in project planning and estimation, ensuring alignment with client expectations, and optimizing resource allocation.
+  - Orchestrated end-to-end solution development, including data collection, preprocessing, model development, testing, and deployment, to meet client objectives and project timelines.
+  - Successfully delivered customized Machine Learning solutions, exceeding client expectations and achieving project milestones.
+
+- Led the development and implementation of a course recommendation system within our Learning & Development (L&D) platform.
+- Collaborated with cross-functional teams to gather user data, including user behavior, preferences, and course interactions.
+- Utilized machine learning algorithms, such as collaborative filtering and content-based filtering, to personalize course recommendations for users.
+- Integrated data pipelines for real-time data ingestion, processing, and updating of recommendations.
+
+### Sr. Research Analyst - Edureka
+**Bangalore | Dec, 2013 – Sep, 2015**
+- Conducted extensive research on Machine Learning course content and collaborated closely with Subject Matter Experts (SMEs) to develop comprehensive technical content, including exercises, quizzes, and other learning materials.
+- Served as a Teaching Assistant (TA), providing invaluable support to students in solving complex technical problems and facilitating their learning experience.
+  - Recognized as the "Best Performer" for five consecutive months for outstanding contributions to student success and engagement.
+- Contributed significantly to the community by authoring blog posts on advanced Machine Learning and Big Data topics.
+  - Five of my blog posts became the highest-traffic generators on the platform.
+- Led the initiative to create a comprehensive knowledge base, reducing the workload on the TA team and enhancing the overall efficiency of support and learning resources.
+
+## Education:
+- **Bachelor in Computer Science** - **Visvesvaraya Technological University (VTU)**
+
+   Bangalore | 2013
+  
+## Skills:
+- **Computer Vision:** Object Detection, Image Classification, Tracking
+- **NLP:**  Text Classification, Topic Modeling
+- **Machine Learning:** Deep Learning, Pytorch, Tensorflow, Scikit learn
+- **Data Processing:**  Numpy, Pandas, Apache Spark, Hadoop
+- **Cloud Platforms:** AWS, Azure, Google Cloud
+- **Software Engineering:** Git, Docker, CI/CD
+
+Publications and Presentations:
+--------------------------------
+- Poster presentation on "Domain Adaptation of Image Caption Model for Video Descriptions" at AI & Deep Learning Conference | GTC 2018 | NVIDIA, showcasing pioneering work.
+## References:
+
+Available upon request.
