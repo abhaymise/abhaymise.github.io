@@ -15,9 +15,29 @@ With my extensive experience, I am well-equipped and prepared to take on roles, 
 ## Professional Experience:
 ### Machine Learning Lead - Target Corporation  
 **Bangalore | Feb, 2021 – Present**
-- Developed and implemented anomaly detection techniques, reducing abnormal data inflow into the pipeline by 8%.
-- Led the development of invoice analysis techniques, digitizing invoices and enabling cross-verification of items, leading to a 9% reduction in invoice processing time.
-- Engineered a real-time safety monitoring solution using object detection and tracking, Improved safety by reducing incidents by 31%, and optimized the solution for deployment on low-compute infrastructure.
+#### Anomaly Detection System for Data Pipeline
+- Developed an anomaly detection system to prevent corrupt images from entering the data pipeline.
+- Identified and blocked 30% of anomalous images, resulting in substantial reductions in processing time 
+- Improved downstream algorithms, leading to an 8% enhancement in business metric.
+#### Invoice Digitisation System
+- Implemented OCR model fine-tuning to detect specific fonts used in invoices.
+- Conducted document analysis to locate table areas for text extraction.
+- Identified and reconstructed tabular structures.
+- Digitized table data into structured JSON format, preserving row and column information as keys.
+- Extracted key attributes from invoices for image indexing and efficient searching.
+
+**Significance:**
+- Streamlined the digitization process, reducing manual effort significantly.
+- Improved data accuracy and accessibility for efficient search and retrieval.
+- Enhanced overall document management and data extraction efficiency.
+
+#### Real-Time Safety Monitoring System
+- Developed a real-time monitoring system using camera streams to detect individuals in unsafe zones and ensure adherence to safety protocols.
+- Recorded safety violations with evidence, raising safety incidents for review and training.
+- Extended monitoring capabilities to cover a wider area, overcoming resource and weather constraints.
+- Enhanced safety and operational efficiency.
+- Reduced safety violation events by 40%.
+#### Privacy Blur Feature Implementation 
 - Developed a privacy blur feature for archived video streams.
   - Employed lightweight object tracking and detectors to reduce processing needs.
   - Ensured real-time video processing while obfuscating individuals' identities.
@@ -27,9 +47,15 @@ With my extensive experience, I am well-equipped and prepared to take on roles, 
 
 ### Senior Data Scientist - Embibe
 **Bangalore | May, 2019 – Jan, 2021**
-- Contributed to image asset tagging in the academic domain, enhancing content organization and search-ability.
+#### Question Tagging and Topic Extraction System 
+- Designed and implemented an automated system to tag questions with subjects and extract relevant topics from text.
+- Enhanced content organization and searchability in a repository of millions of question papers.
+- Utilized natural language processing techniques for precise content discovery.
 - Developed question tagging using both text and image content, enabling better content recommendation and search accuracy.
-
+### In-House Annotation Tool Design
+- Spearheaded the development of a custom in-house annotation tool, incorporating user and project management workflows.
+- Collaborated closely with Subject Matter Experts (SMEs) and annotators to gather requirements, ensuring that user needs were at the forefront of the tool's design.
+- Integrated active learning capabilities into the system, enabling it to learn from initial observations evolve the annotation flow into an audit flow, where system-generated annotations were verified by annotators, leading to the rapid annotation of thousands of images with a small annotator team.
 ### Senior Data Scientist - ClipIndia
 **Bangalore | Sep, 2018 – April, 2019**
 - Implemented NSFW video classification for Content Moderation, maintaining a clean platform by automatically detecting obscene content, leading to a 28% reduction in inappropriate content.
