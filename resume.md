@@ -15,10 +15,15 @@ With my extensive experience, I am well-equipped and prepared to take on roles, 
 ## Professional Experience:
 ### Machine Learning Lead - Target Corporation  
 **Bangalore | Feb, 2021 – Present**
-  - Developed and implemented anomaly detection techniques, reducing abnormal data inflow into the pipeline by 8%.
-  - Led the development of invoice analysis techniques, digitizing invoices and enabling cross-verification of items, leading to a 9% reduction in invoice processing time.
-  - Engineered a real-time safety monitoring solution using object detection and tracking, Improved safety by reducing incidents by 31%, and optimized the solution for deployment on low-compute infrastructure.
-  - Mentored junior team members, fostering their growth and enhancing the overall team's performance.
+- Developed and implemented anomaly detection techniques, reducing abnormal data inflow into the pipeline by 8%.
+- Led the development of invoice analysis techniques, digitizing invoices and enabling cross-verification of items, leading to a 9% reduction in invoice processing time.
+- Engineered a real-time safety monitoring solution using object detection and tracking, Improved safety by reducing incidents by 31%, and optimized the solution for deployment on low-compute infrastructure.
+- Developed a privacy blur feature for archived video streams.
+  - Employed lightweight object tracking and detectors to reduce processing needs.
+  - Ensured real-time video processing while obfuscating individuals' identities.
+  - Improved security and privacy standards of the video archive system.
+  - Collaborated for seamless integration and performance optimization.
+- Mentored junior team members, fostering their growth and enhancing the overall team's performance.
 
 ### Senior Data Scientist - Embibe
 **Bangalore | May, 2019 – Jan, 2021**
