@@ -82,6 +82,13 @@ I am a seasoned professional with over 10 years of experience in the fields of M
 - Digitized table data into structured JSON format, preserving row and column information as keys.
 - Extracted key attributes from invoices for image indexing and efficient searching.
 
+#### Real-Time Safety Monitoring System
+- Developed a real-time monitoring system using camera streams to detect individuals in unsafe zones and ensure adherence to safety protocols.
+- Recorded safety violations with evidence, raising safety incidents for review and training.
+- Extended monitoring capabilities to cover a wider area, overcoming resource and weather constraints.
+- Enhanced safety and operational efficiency.
+- Reduced safety violation events by 40%.
+
 #### Privacy Blur Feature Implementation 
 - Developed a privacy blur feature for archived video streams.
   - Employed lightweight linear object tracking(kalman Filter) and yolo object detectors to reduce compute needs.
@@ -97,13 +104,8 @@ I am a seasoned professional with over 10 years of experience in the fields of M
 - Utilized natural language processing techniques for precise content discovery.
 - Developed question tagging using both text and image content, enabling better content recommendation and search accuracy.
 
-#### In-House Annotation Tool Design
-- Spearheaded the development of a custom in-house annotation tool, incorporating user and project management workflows.
-- Collaborated closely with Subject-Matter Experts (SME) and annotators to gather requirements, ensuring that user needs were at the forefront of the tool's design.
-- Integrated active learning capabilities into the system, enabling it to learn from initial observations evolve the annotation flow into an audit flow, where system-generated annotations were verified by annotators, leading to the rapid annotation of thousands of images with a small annotator team.
-
-### Content Enrichment Engine
-*CLIP India*
+### *CLIP India*
+#### Content Enrichment Engine
 
 - Implemented NSFW video classification for Content Moderation, maintaining a clean platform by automatically detecting obscene content, leading to a 28% reduction in inappropriate content.
 - Designed a video asset tagging system with multiple attributes, improving content discoverability and feed ranking, resulting in a 3%  increase in DAU.
