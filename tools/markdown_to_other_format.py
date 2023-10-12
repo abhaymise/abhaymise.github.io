@@ -11,6 +11,8 @@ __date__ = "09-10-2023"
 __copyright__ = "Copyright 2022"
 
 import argparse
+import os
+
 import pypandoc
 import markdown2
 from pathlib import Path
@@ -79,12 +81,20 @@ def HTML_to_pdf(html_file, pdf_file):
 
 def main():
     parser = argparse.ArgumentParser(description='Convert Markdown to PDF and Word')
-    parser.add_argument('input_file', help='Input Markdown file')
+    parser.add_argument("-i", "--input_file", required=True, help='Input Markdown file')
+    parser.add_argument("-o", "--out_dir", required=True,help="directrory to write results")
     args = parser.parse_args()
     input_markdown_file = args.input_file
-    output_html_file = f"{Path(input_markdown_file).stem}.html"
-    output_pdf_file = f"{Path(input_markdown_file).stem}.pdf"
-    output_word_file = f"{Path(input_markdown_file).stem}.docx"
+    out_dir = args.out_dir
+    output_html_file = f"{out_dir}/{Path(input_markdown_file).stem}.html"
+    output_pdf_file = f"{out_dir}/{Path(input_markdown_file).stem}.pdf"
+    output_word_file = f"{out_dir}/{Path(input_markdown_file).stem}.docx"
+    try:
+        os.remove(output_html_file)
+        os.remove(output_pdf_file)
+        os.remove(output_word_file)
+    except Exception as e:
+        print(e)
 
     # Convert Markdown to HTML
     html_content = markdown_to_html(input_markdown_file)
