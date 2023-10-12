@@ -68,23 +68,45 @@ I am a seasoned professional with over 10 years of experience in the fields of M
 
 ## Projects
 
-### Retail Analytics Platform
-*Target Corporation*
+### *Target Corporation*
 
-- Architected and developed a real-time retail analytics platform that processed and analyzed terabytes of data daily, providing actionable insights to retailers.
-- Utilized computer vision algorithms to track customer movements in physical stores, leading to improved store layout designs and increased sales.
+#### Anomaly Detection System for Data Pipeline
+- Developed an anomaly detection system to prevent corrupt images from entering the data pipeline.
+- Identified and blocked 30% of anomalous images, resulting in substantial reductions in processing time 
+- Improved downstream algorithms, leading to an 8% enhancement in business metric.
 
-### Personalized Learning Recommender
-*Cogknit Semantics*
+#### Invoice Digitisation System
+- Implemented OCR model fine-tuning to detect and recognise specific style of text used in invoices.
+- Finetuned transformer based layout analysis model to locate table areas for text extraction.
+- Finetuned table transformer architecture and identified and reconstructed tabular structures.
+- Digitized table data into structured JSON format, preserving row and column information as keys.
+- Extracted key attributes from invoices for image indexing and efficient searching.
 
-- Led a team in building a personalized learning recommender system that utilized NLP techniques to analyze student performance data and recommend tailored educational content.
-- The system resulted in a 25% increase in student engagement and a 20% improvement in test scores.
+#### Privacy Blur Feature Implementation 
+- Developed a privacy blur feature for archived video streams.
+  - Employed lightweight linear object tracking(kalman Filter) and yolo object detectors to reduce compute needs.
+- Mentored junior team members, fostering their growth and enhancing the overall team's performance.
 
-### Content Recommendation Engine
+### *Embibe* 
+
+#### Question Tagging and Topic Extraction System 
+- Collaborated with SME, Data engineers and annotator team to gather and curate high-quality datasets for training and validation purposes.
+- Designed and implemented an automated system to tag questions with subjects and extract relevant topics from text.
+- Fine tuned Resnet based architecture for visual feature extraction and used BERT model for text embeddings extraction
+- Enhanced content organization and searchability in a repository of millions of question papers.
+- Utilized natural language processing techniques for precise content discovery.
+- Developed question tagging using both text and image content, enabling better content recommendation and search accuracy.
+
+#### In-House Annotation Tool Design
+- Spearheaded the development of a custom in-house annotation tool, incorporating user and project management workflows.
+- Collaborated closely with Subject-Matter Experts (SME) and annotators to gather requirements, ensuring that user needs were at the forefront of the tool's design.
+- Integrated active learning capabilities into the system, enabling it to learn from initial observations evolve the annotation flow into an audit flow, where system-generated annotations were verified by annotators, leading to the rapid annotation of thousands of images with a small annotator team.
+
+### Content Enrichment Engine
 *CLIP India*
 
-- Designed and implemented a content recommendation engine that utilized collaborative filtering and deep learning to improve user engagement on a media streaming platform.
-- The project led to a 30% increase in user retention and a 25% boost in content consumption.
+- Implemented NSFW video classification for Content Moderation, maintaining a clean platform by automatically detecting obscene content, leading to a 28% reduction in inappropriate content.
+- Designed a video asset tagging system with multiple attributes, improving content discoverability and feed ranking, resulting in a 3%  increase in DAU.
 
 ## Contact
 
