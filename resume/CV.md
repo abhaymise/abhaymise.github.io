@@ -8,13 +8,22 @@ Email : **abhay8280@gmail.com** | Phone : **+91-9731-812-812**
 | [Github Profile](https://github.com/abhaymise/abhaymise.github.io)
 
 ## About Me:
-Passionate and accomplished Machine Learning Professional with a decade of hands-on expertise in Computer Vision, Natural Language Processing, Recommender Systems, and complex problem-solving. Proven track record of leading teams, engaging with clients, and contributing impactful research to the field. A dedicated individual with a passion for innovation and a drive to deliver cutting-edge solutions.
+Passionate and accomplished Machine Learning Professional with a decade of hands-on expertise in Computer Vision, Natural Language Processing, Recommender Systems, and complex problem-solving. 
+Proven track record of leading teams, engaging with clients, and contributing impactful research to the field. 
+A dedicated individual with a passion for innovation and a drive to deliver cutting-edge solutions.
 ## Objective 
-With my extensive experience, I am well-equipped and prepared to take on roles, in the field of Machine Learning, where I can drive impactful innovation, mentor talent, and contribute to organizational excellence and growth.
+With my extensive experience, I am well-equipped and prepared to take on roles, in the field of Machine 
+Learning, where I can drive impactful innovation, mentor talent, and contribute to organizational excellence and growth.
 ***
 ## Professional Experience:
 
 ### Machine Learning Lead - Target Corporation (Feb 2021 – Present)
+
+#### LLM powered Document search system
+- Developed a scalable search system enabling natural language, keyword, and semantic searches through document images. 
+- Leveraged Kafka for asynchronous data ingestion and Spark for OCR processing, keyword extraction, and visual embeddings generation using CLIP. 
+- Designed and implemented indexing and search functionalities using Elasticsearch and Milvus, ensuring high performance and scalability.
+- Built LLM powered advanced RAG flow for entity extraction from unstructured textual data
 
 #### Anomaly Detection System for Data Pipeline
 - Developed an anomaly detection system to prevent corrupt images from entering the data pipeline.
@@ -27,11 +36,6 @@ With my extensive experience, I am well-equipped and prepared to take on roles, 
 - Identified and reconstructed tabular structures.
 - Digitized table data into structured JSON format, preserving row and column information as keys.
 - Extracted key attributes from invoices for image indexing and efficient searching.
-
-  **Significance:**
-- Streamlined the digitization process, reducing manual effort significantly.
-- Improved data accuracy and accessibility for efficient search and retrieval.
-- Enhanced overall document management and data extraction efficiency.
 
 #### Real-Time Safety Monitoring System
 - Developed a real-time monitoring system using camera streams to detect individuals in unsafe zones and ensure adherence to safety protocols.
@@ -61,7 +65,6 @@ With my extensive experience, I am well-equipped and prepared to take on roles, 
 - Integrated active learning capabilities into the system, enabling it to learn from initial observations evolve the annotation flow into an audit flow, where system-generated annotations were verified by annotators, leading to the rapid annotation of thousands of images with a small annotator team.
 
 #### Senior Data Scientist - ClipIndia (Sep 2018 – Apr 2019)
-
 - Implemented NSFW video classification for Content Moderation, maintaining a clean platform by automatically detecting obscene content, leading to a 28% reduction in inappropriate content.
 - Designed a video asset tagging system with multiple attributes, improving content discoverability and feed ranking, resulting in a 3%  increase in DAU.
 
@@ -95,12 +98,17 @@ With my extensive experience, I am well-equipped and prepared to take on roles, 
 - Bachelor in Computer Science, Visvesvaraya Technological University (VTU), 2013.
  
 ## Skills:
-- Computer Vision: Object Detection, Image Classification.
-- NLP: Text Classification, Topic Modeling.
-- Machine Learning: Deep Learning (PyTorch, TensorFlow), Scikit-learn.
+- Generative AI : Prompt engineering, LLM App development, RAG, Instruction fine-tuning, LangChain, ChatGPT, Bert, LLAMA
+- Search Systems : Semantic search, Keyword search, Hybrid Search,Re-ranking, Elastic search, Milvus Vector DB, FAISS 
+- Computer Vision: Object Detection, Image Classification, Image Segmentation
+- NLP: Text Classification, Topic Modeling, LLM fine-tuning
+- Machine Learning: Deep Learning (PyTorch, TensorFlow), Scikit-learn, Huggingface
 - Data Processing: NumPy, Pandas, Spark, Hadoop.
 - Cloud Platforms: AWS, Azure, Google Cloud.
-- Software Engineering: Git, Docker, CI/CD.
+- MLOps : Git,  CI/CD, MLflow, containerization (Docker), APIs
+- ML : Model training, optimisation and deployment at scale,  Algorithm research and selection
+- Team Skills : Team Building , Team Leadership, Project Planning , Data story telling and effective presentations
+
 
 ## Publications and Presentations:
 - Poster presentation on "Domain Adaptation of Image Caption Model for Video Descriptions" at AI & Deep Learning Conference (GTC 2018, NVIDIA).
