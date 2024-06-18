@@ -25,6 +25,15 @@ Learning, where I can drive impactful innovation, mentor talent, and contribute 
 - Designed and implemented indexing and search functionalities using Elasticsearch and Milvus, ensuring high performance and scalability.
 - Built LLM powered advanced RAG flow for entity extraction from unstructured textual data
 
+#### Advanced RAG powered marketing asset search system
+- Developed a scalable search system enabling natural language, keyword, and semantic searches through the asset store
+- Used Object detection to tag visual key objects in the image
+- Trained model to detect custom themes and tag them as metadata
+- Used Image processing technique to extract dominant colors
+- Used CLIP embedding to project the query text and image into the same dimension 
+- Used Reranking to refine the semantic search results
+- used LLMs to create the response in a natural language form
+
 #### Anomaly Detection System for Data Pipeline
 - Developed an anomaly detection system to prevent corrupt images from entering the data pipeline.
 - Identified and blocked 30% of anomalous images, resulting in substantial reductions in processing time 
@@ -37,12 +46,6 @@ Learning, where I can drive impactful innovation, mentor talent, and contribute 
 - Digitized table data into structured JSON format, preserving row and column information as keys.
 - Extracted key attributes from invoices for image indexing and efficient searching.
 
-#### Real-Time Safety Monitoring System
-- Developed a real-time monitoring system using camera streams to detect individuals in unsafe zones and ensure adherence to safety protocols.
-- Recorded safety violations with evidence, raising safety incidents for review and training.
-- Extended monitoring capabilities to cover a wider area, overcoming resource and weather constraints.
-- Enhanced safety and operational efficiency.
-- Reduced safety violation events by 40%.
 
 #### Privacy Blur Feature Implementation 
 - Developed a privacy blur feature for archived video streams.
