@@ -21,8 +21,7 @@ Learning, where I can drive impactful innovation, mentor talent, and contribute 
 
 #### LLM powered Document search system
 - Developed a scalable search system enabling natural language, keyword, and semantic searches through document images. 
-- Leveraged Kafka for asynchronous data ingestion and Spark for OCR processing, keyword extraction, and visual embeddings generation using CLIP. 
-- Designed and implemented indexing and search functionalities using Elasticsearch and Milvus, ensuring high performance and scalability.
+- Designed and implemented indexing and search functionalities using Elasticsearch, ensuring high performance and scalability.
 - Built LLM powered advanced RAG flow for entity extraction from unstructured textual data
 
 #### Advanced RAG powered marketing asset search system
@@ -31,7 +30,7 @@ Learning, where I can drive impactful innovation, mentor talent, and contribute 
 - Trained model to detect custom themes and tag them as metadata
 - Used Image processing technique to extract dominant colors
 - Used CLIP embedding to project the query text and image into the same dimension 
-- Used Reranking to refine the semantic search results
+- Used Ranking to refine the semantic search results
 - used LLMs to create the response in a natural language form
 
 #### Anomaly Detection System for Data Pipeline
