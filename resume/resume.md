@@ -49,7 +49,7 @@ Designed in-house annotation tools with active learning, enabling rapid, high-qu
 -  Implemented a system to detect and filter NSFW comments with 95% accuracy, enhancing user trust.
 
 ### Senior Data Scientist - Cogknit Semantics (*Sep 2015 – Sep 2018*)
-#### Catalogue Misplacement Detection System
+#### Catalogue Correction System
 - Developed a CV-based system to detect and correct displacements in product catalogues.
 - Led to cleaner & accurate product catalogues, reducing incorrect placements by 12%.
 
