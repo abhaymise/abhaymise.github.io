@@ -57,7 +57,7 @@ Designed in-house annotation tools with active learning, enabling rapid, high-qu
 - Researched ML content, collaborated with SMEs, authored technical blogs, and built a knowledge base to improve learning resources and reduce support workload.
 
 ## Education
-- Bachelor in Computer Science, Visvesvaraya Technological University (VTU), 2013.
+- B.E. in Computer Science, Visvesvaraya Technological University (VTU), 2013.
 
 ## Skills
 
