@@ -1,21 +1,23 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+# markdown_to_other_format.py created at 09-10-2023 by Abhay Kumar
 """
 Module desciption: 
 Description of what markdown_to_other_format.py does.
+
+Usage:
+    python markdown_to_other_format.py -i <input_markdown_file> -o <output_directory>
+
+    Directly run the script from the command line with the input markdown file and output directory as arguments.
+    > pandoc resume/resume.md -o resume/other_formats/resume.docx
 """
-# markdown_to_other_format.py created at 09-10-2023
-__author__ = "Abhay Kumar"
-__date__ = "09-10-2023"
-__copyright__ = "Copyright 2022"
 
 import argparse
 import os
+from pathlib import Path
 
 import pypandoc
 import markdown2
-from pathlib import Path
 import pdfkit
 
 
