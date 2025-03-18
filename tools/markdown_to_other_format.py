@@ -103,7 +103,7 @@ def main():
     write_to_file(html_content, output_html_file)
 
     HTML_to_docx(output_html_file, output_word_file)
-    HTML_to_pdf(output_html_file, output_pdf_file)
+    # HTML_to_pdf(output_html_file, output_pdf_file)
 
 
 if __name__ == "__main__":
