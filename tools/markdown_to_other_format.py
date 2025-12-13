@@ -13,6 +13,7 @@ Usage:
 """
 
 import argparse
+from datetime import datetime
 import os
 from pathlib import Path
 
@@ -58,6 +59,7 @@ def write_to_file(html_content, html_file):
 
 def HTML_to_docx(html_file, word_file):
     try:
+        # Convert HTML to Word using pypandoc
         pypandoc.convert_file(html_file, 'docx', outputfile=word_file)
         print(f"Conversion successful: {html_file} -> {word_file}")
     except Exception as e:
@@ -88,9 +90,10 @@ def main():
     args = parser.parse_args()
     input_markdown_file = args.input_file
     out_dir = args.out_dir
-    output_html_file = f"{out_dir}/{Path(input_markdown_file).stem}.html"
-    output_pdf_file = f"{out_dir}/{Path(input_markdown_file).stem}.pdf"
-    output_word_file = f"{out_dir}/{Path(input_markdown_file).stem}.docx"
+    current_date = datetime.now().strftime('%Y%m%d')
+    output_html_file = f"{out_dir}/{Path(input_markdown_file).stem}_{current_date}.html"
+    output_pdf_file = f"{out_dir}/{Path(input_markdown_file).stem}_{current_date}.pdf"
+    output_word_file = f"{out_dir}/{Path(input_markdown_file).stem}_{current_date}.docx"
     try:
         os.remove(output_html_file)
         os.remove(output_pdf_file)
