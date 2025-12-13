@@ -7,65 +7,56 @@ Bangalore, Karnataka, India
 ---
 
 ## <span style="font-family:Georgia,serif;font-size:1.5em;font-weight:bold;">About Me</span>
-Passionate and accomplished Machine Learning Professional with a decade of hands-on expertise in <strong>Generative AI</strong>, <strong>LLM</strong>, <strong>VLM</strong>, <strong>NLP</strong>, <strong>Computer Vision</strong> and solving complex problems.  Proven track record of leading teams, engaging with clients, and contributing impactful research to the field.  A dedicated individual with a passion for innovation and a drive to deliver cutting-edge solutions.
+Accomplished Machine Learning Professional with a decade of experience in Generative AI, LLMs, VLM, NLP, and Computer Vision. Proven leader in building and deploying innovative AI solutions, driving business impact, and mentoring high-performing teams. Passionate about solving complex problems and delivering state-of-the-art results.
 
 ---
 
 ## <span style="font-family:Georgia,serif;font-size:1.5em;font-weight:bold;">Professional Experience</span>
 
 ### <span style="font-family:Georgia,serif;font-size:1.2em;font-weight:bold;">Sr AI Engineer - Target Corporation</span> <span style="font-size:1em;">(Feb 2021 – Present)</span>
-- Collaborated with cross-functional teams to design and implement solutions that address business needs and drive value for the organization.
-- Provided technical leadership on ML architecture, model selection, and productionisation, ensuring scalability and alignment with business objectives.
-- Led a team of Data Scientists and Machine Learning Engineers, providing mentorship and guidance to enhance their technical skills and professional development.
-- Developed and implemented best practices for model development, evaluation, and deployment, ensuring high-quality and scalable Machine Learning solutions.
-- Led the development of innovative Machine Learning models and algorithms, leveraging cutting-edge techniques and technologies to solve complex business problems.
-- Led model optimization efforts, reducing embedding computation latency for large-scale datasets.
-- Conducted regular code reviews and technical discussions to ensure the team's adherence to coding standards and best practices.
+- Led cross-functional teams to design and implement scalable ML solutions aligned with business goals.
+- Provided technical leadership in ML architecture, model selection, and productionization.
+- Mentored Data Scientists and ML Engineers, fostering technical growth and best practices.
+- Developed and optimized advanced ML models, reducing embedding computation latency for large-scale datasets.
+- Established robust model development, evaluation, and deployment workflows.
 
 #### <span style="font-family:Georgia,serif;font-size:1.1em;font-weight:bold;">Agentic Doc Entity Extraction</span>
-- Added Agents with set of tools to automate various invoice tasks
-- Hosted and integrated various tools in MCP Server for invoice automation
-    - Added Image Anomaly Agent to classify quality issues (blur, rotation, compression artifacts) to trigger the right preprocessing steps (denoise, rotate, deskew, resolution enhancement or discard).
-    - Added doc layout analysis agent which calls right tools based on doc type
-    - Added OCR Agent which calls right OCR tools based on text type in doc
-    - Added Entity Linking & Validation Agents which extract entities, connect invoice values to enterprise systems (registered as tools), and validate them
+- Automated invoice processing by integrating agent-based tools in the MCP Server.
+    - Deployed Image Anomaly Agent to detect quality issues and trigger targeted preprocessing.
+    - Implemented document layout and OCR agents for adaptive document analysis.
+    - Built Entity Linking & Validation Agents to extract, connect, and validate invoice data with enterprise systems.
 
 #### <span style="font-family:Georgia,serif;font-size:1.1em;font-weight:bold;">RAG powered Invoice Intelligence System</span>
-- Architected and deployed a scalable invoice search system combining LLM-powered RAG with high-performance vector search (Milvus) and Elasticsearch, handling over millions of financial documents.
-- Engineered a hybrid search strategy, combining structured field-based filtering (Elasticsearch) with semantic vector search (Milvus) for high-precision invoice retrieval.
-- Spearheaded the selection and tuning of models (OCR, CLIP, LayoutLM, SentenceTransformers) for extracting structured and unstructured metadata, reducing manual effort in invoice processing by 70%.
+- Architected and deployed a scalable invoice search platform using LLM-powered RAG, Milvus, and Elasticsearch, handling millions of financial documents.
+- Engineered a hybrid search strategy combining structured filtering and semantic vector search for high-precision retrieval.
+- Selected and tuned models (OCR, CLIP, LayoutLM, SentenceTransformers), reducing manual invoice processing by 70%.
 
 #### <span style="font-family:Georgia,serif;font-size:1.1em;font-weight:bold;">AI-Powered Asset Tagging System</span>
-- Designed and led the development of an enterprise-grade AI-powered asset tagging and search system, enabling semantic and hybrid search over millions of assets, enabling search by images and natural language
-- Developed a metadata enrichment pipeline using OCR, object detection, and brand/logo recognition models, generating structured metadata for improved indexing and search.
-- Built a multi-modal retrieval pipeline, leveraging CLIP and Sentence-BERT embeddings for image and text understanding, enhancing searchability by 40%.
-- Built a high-throughput pipeline for batch & incremental asset tagging using Kafka, Spark, and distributed deep learning inference.
+- Designed and delivered an enterprise-grade asset tagging and search system supporting semantic and hybrid queries over millions of assets.
+- Built a metadata enrichment pipeline using OCR, object detection, and logo recognition for improved indexing.
+- Developed a multi-modal retrieval pipeline leveraging CLIP and Sentence-BERT, boosting searchability by 40%.
+- Implemented high-throughput batch and incremental asset tagging with Kafka, Spark, and distributed inference.
 
 ### <span style="font-family:Georgia,serif;font-size:1.2em;font-weight:bold;">Senior Data Scientist - Embibe</span> <span style="font-size:1em;">(May 2019 – Jan 2021)</span>
 
 #### <span style="font-family:Georgia,serif;font-size:1.1em;font-weight:bold;">Question Tagging and Topic Extraction System</span>
-- Designed and implemented an automated system to tag questions with subjects and extract relevant topics from text.
-- Developed question tagging using both text and image content, enabling better content recommendation and search accuracy.
-- Used BERT model for text embeddings extraction and Resnet based architecture for visual feature extraction.
+- Built automated systems for question tagging and topic extraction using BERT and ResNet, improving content recommendation and search.
 
 ### <span style="font-family:Georgia,serif;font-size:1.2em;font-weight:bold;">Senior Data Scientist - ClipIndia</span> <span style="font-size:1em;">(Sep 2018 – Apr 2019)</span>
 
 #### <span style="font-family:Georgia,serif;font-size:1.1em;font-weight:bold;">NSFW Video Classification</span>
-- Implemented a classification system to identify and filter out inappropriate content, reducing NSFW content
-- Developed a video classification system, reducing inappropriate content by 28%.
+- Developed and deployed a video classification system, reducing inappropriate content by 28%.
 
 #### <span style="font-family:Georgia,serif;font-size:1.1em;font-weight:bold;">Video Asset Tagging</span>
-- Developed a video asset tagging system to improve content discoverability and feed ranking.
-- Enhanced content organization and searchability, increasing user engagement by 3%.
+- Built a tagging system that improved content discoverability and increased user engagement by 3%.
 
 ### <span style="font-family:Georgia,serif;font-size:1.2em;font-weight:bold;">Senior Data Scientist - Cogknit Semantics</span> <span style="font-size:1em;">(Sep 2015 – Sep 2018)</span>
 
-#### <span style="font-family:Georgia,serif;font-size:1.1em;font-weight:bold;">Digital catalogue misplaced product detection</span>
-- Developed a computer vision-based system to detect and correct misplaced products in an e-commerce catalog using CNN models.
-- Identified and reorganized 12% of misplaced products, resulting in substantial reductions in incorrect placements.
+#### <span style="font-family:Georgia,serif;font-size:1.1em;font-weight:bold;">Digital Catalogue Misplaced Product Detection</span>
+- Developed a CV-based system using CNNs to detect and correct misplaced products, reducing catalog errors by 12%.
 
 ### <span style="font-family:Georgia,serif;font-size:1.2em;font-weight:bold;">Sr. Research Analyst - Edureka</span> <span style="font-size:1em;">(Dec 2013 – Sep 2015)</span>
-- Led the initiative to create a comprehensive knowledge base, reducing the workload on the TA team and enhancing the overall efficiency of support and learning resources.
+- Created a comprehensive knowledge base, reducing TA team workload and improving support and learning resources.
 
 ---
 
@@ -76,19 +67,19 @@ Passionate and accomplished Machine Learning Professional with a decade of hands
 
 ## <span style="font-family:Georgia,serif;font-size:1.5em;font-weight:bold;">Skills</span>
 
-- <strong>Generative AI</strong>: Advanced Prompt engineering, LLM app development, AI Agents, RAG, ChatGPT, Bert, LLAMA, CrewAI, LangChain
+- <strong>Generative AI</strong>: Prompt engineering, LLM app development, AI Agents, RAG, ChatGPT, Bert, LLAMA, CrewAI, LangChain
 - <strong>Search Systems</strong>: Elasticsearch, Milvus, FAISS
-- <strong>Computer Vision</strong>: Object detection, image classification, image segmentation
-- <strong>NLP</strong>: Text classification, topic modeling, Intent classification
+- <strong>Computer Vision</strong>: Object detection, image classification, segmentation
+- <strong>NLP</strong>: Text classification, topic modeling, intent classification
 - <strong>Machine Learning</strong>: Deep Learning (PyTorch, TensorFlow), Scikit-learn, Huggingface
-- <strong>Applied ML</strong>: Model training, optimisation and deployment at scale, Algorithm research and selection
+- <strong>Applied ML</strong>: Model training, optimization, deployment at scale, algorithm research
 - <strong>Data Processing</strong>: NumPy, Pandas, Spark, Hadoop
 - <strong>Cloud Platforms</strong>: AWS, Azure, Google Cloud
-- <strong>MLOps</strong>: Git, CI/CD, MLflow, containerization (Docker), APIs
+- <strong>MLOps</strong>: Git, CI/CD, MLflow, Docker, APIs
 - <strong>Team Skills</strong>: Team building, leadership, project planning, data storytelling
 
 ---
 
 ## <span style="font-family:Georgia,serif;font-size:1.5em;font-weight:bold;">Publications and Presentations</span>
-- Poster presentation on "Domain Adaptation of Image Caption Model for Video Descriptions" at AI & Deep Learning Conference (GTC 2018, NVIDIA).
+- Poster: "Domain Adaptation of Image Caption Model for Video Descriptions" at AI & Deep Learning Conference (GTC 2018, NVIDIA).
 

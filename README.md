@@ -1,10 +1,12 @@
 # markdown_to_other_format.py
 
-Small helper to convert Markdown resumes to HTML and Word (and optionally PDF).
+A helper script to convert Markdown resumes to HTML and Word (and optionally PDF), with output filenames including the current date for versioning.
 
 ## Overview
 
-The script `tools/markdown_to_other_format.py` converts a Markdown file to HTML and DOCX. The generated HTML enforces the Georgia font. PDF generation is available but disabled by default.
+The script `tools/markdown_to_other_format.py` converts a Markdown file to HTML and DOCX. The generated HTML enforces the Georgia font. PDF generation is available but commented out by default.
+
+**Output files are named as `<stem>_<YYYYMMDD>.<ext>` (e.g., `resume_20251213.docx`) to include the date of generation.**
 
 ## Prerequisites
 
@@ -17,7 +19,7 @@ Install pandoc on macOS:
 
     brew install pandoc
 
-Install wkhtmltopdf (optional):
+Install wkhtmltopdf (optional, for PDF):
 
     brew install --cask wkhtmltopdf
 
@@ -29,11 +31,11 @@ From the repository root:
 
 ## Usage
 
-Basic example (converts to HTML and DOCX):
+Basic example (converts to HTML and DOCX, output files include the date):
 
     python3 tools/markdown_to_other_format.py -i resume/resume.md -o resume/other_formats
 
-This writes `<stem>.html` and `<stem>.docx` to the output directory. For `resume/resume.md` the outputs will be written to `resume/other_formats/`.
+This writes files like `resume_20251213.html` and `resume_20251213.docx` to the output directory. For `resume/resume.md` the outputs will be written to `resume/other_formats/`.
 
 ## Enabling PDF output
 
@@ -47,13 +49,14 @@ PDF conversion uses `wkhtmltopdf` via `pdfkit`. To enable PDF output:
 
 - `pypandoc` requires the pandoc binary; if you see conversion errors, ensure `pandoc` is installed and on your PATH.
 - The script adds simple styling (Georgia font and letter spacing) to the generated HTML.
+- Output files are overwritten if they already exist.
 
 ## Example
 
     python3 tools/markdown_to_other_format.py -i resume/resume.md -o resume/other_formats
 
 Outputs:
-- `resume/other_formats/resume.html`
-- `resume/other_formats/resume.docx`
-- `resume/other_formats/resume.pdf` (only if PDF generation enabled)
+- `resume/other_formats/resume_20251213.html`
+- `resume/other_formats/resume_20251213.docx`
+- `resume/other_formats/resume_20251213.pdf` (only if PDF generation enabled)
 
