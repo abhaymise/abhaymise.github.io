@@ -19,7 +19,6 @@ from pathlib import Path
 
 import pypandoc
 import markdown2
-import pdfkit
 
 
 def insert_style(html_content):
@@ -28,6 +27,7 @@ def insert_style(html_content):
         <!DOCTYPE html>
         <html>
         <head>
+            <meta charset="UTF-8">
             <style>
                 body {{
                      font-family: Georgia, serif;
@@ -45,7 +45,7 @@ def insert_style(html_content):
 
 def markdown_to_html(markdown_file):
     # Convert Markdown to HTML
-    with open(markdown_file, 'r') as input_file:
+    with open(markdown_file, 'r', encoding='utf-8') as input_file:
         markdown_text = input_file.read()
         html_content = markdown2.markdown(markdown_text)
     html_content = insert_style(html_content)
@@ -53,7 +53,7 @@ def markdown_to_html(markdown_file):
 
 
 def write_to_file(html_content, html_file):
-    with open(html_file, 'w') as output_file:
+    with open(html_file, 'w', encoding='utf-8') as output_file:
         output_file.write(html_content)
 
 
@@ -67,20 +67,37 @@ def HTML_to_docx(html_file, word_file):
 
 
 def HTML_to_pdf(html_file, pdf_file):
-    # Convert HTML to PDF using pdfkit
-    options = {
-        'page-size': 'A4',
-        'margin-top': '0mm',
-        'margin-right': '0mm',
-        'margin-bottom': '0mm',
-        'margin-left': '0mm',
-        'encoding': 'UTF-8'
-    }
-    path_wkhtmltopdf = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
-    config = pdfkit.configuration(wkhtmltopdf=path_wkhtmltopdf)
-
-    pdfkit.from_file(html_file, pdf_file, options=options, configuration=config)
-    print(f"Conversion successful: {html_file} -> {pdf_file}")
+    # Convert HTML to PDF using multiple methods
+    # Method 1: Try using xhtml2pdf (pure Python, reliable)
+    try:
+        from xhtml2pdf import pisa
+        with open(html_file, 'rb') as html_input:
+            with open(pdf_file, 'wb') as pdf_output:
+                pisa.CreatePDF(html_input, pdf_output)
+        print(f"Conversion successful: {html_file} -> {pdf_file}")
+        return
+    except Exception as e:
+        print(f"xhtml2pdf failed: {e}")
+    
+    # Method 2: Try using pdfkit with system wkhtmltopdf
+    try:
+        import pdfkit
+        pdfkit.from_file(html_file, pdf_file)
+        print(f"Conversion successful: {html_file} -> {pdf_file}")
+        return
+    except Exception as e:
+        print(f"pdfkit failed: {e}")
+    
+    # Method 3: Try using pypandoc with system latex
+    try:
+        pypandoc.convert_file(html_file, 'pdf', outputfile=pdf_file)
+        print(f"Conversion successful: {html_file} -> {pdf_file}")
+        return
+    except Exception as e:
+        print(f"pypandoc failed: {e}")
+    
+    # Fallback message
+    print(f"Warning: PDF conversion skipped for {os.path.basename(html_file)}")
 
 
 def main():
@@ -94,19 +111,18 @@ def main():
     output_html_file = f"{out_dir}/{Path(input_markdown_file).stem}_{current_date}.html"
     output_pdf_file = f"{out_dir}/{Path(input_markdown_file).stem}_{current_date}.pdf"
     output_word_file = f"{out_dir}/{Path(input_markdown_file).stem}_{current_date}.docx"
-    try:
-        os.remove(output_html_file)
-        os.remove(output_pdf_file)
-        os.remove(output_word_file)
-    except Exception as e:
-        print(e)
+    
+    # Remove existing files if they exist
+    for file_path in [output_html_file, output_pdf_file, output_word_file]:
+        if os.path.exists(file_path):
+            os.remove(file_path)
 
     # Convert Markdown to HTML
     html_content = markdown_to_html(input_markdown_file)
     write_to_file(html_content, output_html_file)
 
     HTML_to_docx(output_html_file, output_word_file)
-    # HTML_to_pdf(output_html_file, output_pdf_file)
+    HTML_to_pdf(output_html_file, output_pdf_file)
 
 
 if __name__ == "__main__":
