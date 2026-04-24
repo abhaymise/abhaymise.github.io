@@ -19,25 +19,25 @@ ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer 
 
 ##### Enterprise Agentic Document Intelligence System
 
-- Architected multi-agent system for invoice processing with orchestration, reasoning, tool discovery, and human-in-the-loop controls; achieved 85% processing time reduction and 92% automation.
+- Architected multi-agent system for invoice processing with orchestration, reasoning, tool discovery, and human-in-the-loop controls 
 - Established production standards: guardrails, tool gating, evaluation frameworks, monitoring, and observability for agent behavior.
 - Image Quality Agent: Detects corrupted scans and improves OCR accuracy by 18%.
-- Layout-Aware LLM Routing: Reduces token consumption by 32% and inference costs by 28%.
+- Layout-Aware LLM Routing: Reduces token consumption by 52% and inference costs by 38%.
 - Key-Value Extraction: Custom LayoutLM tool achieving 92% field extraction accuracy across formats.
 
 ##### RAG Powered PDF Extractive QA Engine
 
-- Engineered in-memory RAG pipeline with layout-aware semantic chunking and dual-representation indexing (LayoutLM + sentence transformers), achieving 89% retrieval precision and 94% answer accuracy.
-- Deployed FAISS indexing enabling sub-100ms latency on 500-page PDFs while reducing infrastructure costs by 56% versus commercial services.
+- Engineered in-memory RAG pipeline with layout-aware semantic chunking, achieving 89% retrieval precision and 94% answer accuracy.
+- Deployed FAISS indexing enabling sub-100ms latency on 50-page PDFs.
 
 ##### Multi-Modal Multi-Tenant Image Search Platform
 
 - Architected multi-modal search platform (text, image, keywords) using Elasticsearch and Milvus achieving 87% relevance over millions of assets.
-- Scaled to handle 10K QPS within 200ms latency
+- Scaled to handle 10K QPS within 800ms latency
 - Multi-tenant infrastructure with data isolation, RBAC, and tenant-specific configs;
 - Onboarded 8+ internal teams across marketing, e-commerce, and content management; processed 100K+ search queries monthly with 92% user satisfaction.
 - Designed onboarding flows reduced onboarding time by 40%.
-- Offline ML-based auto-tagging system achieving 91% precision, 87% recall, and 34% tag coverage increase; processed 10K+ assets daily at 1500ms latency.
+- Offline ML-based auto-tagging system achieving 91% precision, 87% recall, and 34% tag coverage increase; indexed 1M+ assets with rich metadata.
 
 ### Senior Data Scientist
 #### Embibe (May 2019 - Jan 2021)
@@ -45,6 +45,7 @@ ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer 
 ##### Multimodal Question Tagging and Topic Extraction System
 
 - Built automated systems for question tagging and topic extraction using BERT and ResNet Encoding model, improving content recommendation and search.
+- Achieved 93% precision and 89% recall in question tagging, and 90% accuracy in topic extraction.
 
 ### Senior Data Scientist 
 #### ClipIndia (Sep 2018 - Apr 2019)
@@ -52,7 +53,8 @@ ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer 
 ##### Video Content Moderation & Metadata Enrichment Pipeline
 
 - Deployed NSFW video moderation system reducing inappropriate content by 28%.
-- Built intelligent tagging achieving 91% precision, 87% recall, and 34% coverage increase; processed 5K+ videos daily at <1500ms latency.
+- Reduced manual moderation effort by 75% through ML-based metadata enrichment
+- Built intelligent tagging achieving 91% precision, 87% recall, and 34% coverage increase; processed 5K+ videos daily at within 1500ms latency.
 - Fine-tuned 3DCNN models on 12 custom categories with ensemble approach combining fine-tuned + zero-shot pre-trained models for emerging categories.
 
 ### Senior Data Scientist
@@ -60,7 +62,7 @@ ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer 
 
 ##### Catalogue Anomaly Detection Engine
 
-- CV-based CNN system detecting out-of-category product placements, reducing catalogue errors by 12%; classified 50K+ SKUs across 200+ categories at 94% precision.
+- CV-based CNN system detecting out-of-category product placements, reducing catalogue errors by 12%; classified 1.5M SKUs across 100+ categories at 94% precision.
 
 ### Sr. Research Analyst 
 #### Edureka (Dec 2013 - Sep 2015)
