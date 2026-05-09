@@ -8,7 +8,7 @@ Email: abhay8280@gmail.com | Phone: +91-9731-812-812
 
 ## About Me
 
-ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer Vision, and NLP. Proven expertise architecting multi-tenant platforms, leading autonomous systems, and driving measurable business impact.
+ML Professional with 12+ years building AI solutions in Generative AI, LLMs, Computer Vision, and NLP. Proven expertise architecting multi-tenant platforms, leading autonomous systems, and driving measurable business impact.
 
 ---
 
