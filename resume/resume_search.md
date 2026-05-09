@@ -19,11 +19,11 @@ ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer 
 
 ##### Enterprise Agentic Document Intelligence Platform
 
-- Led architecture and productionization of a multi-tenant, agentic document intelligence platform processing millions of documents/month across dozens of enterprise tenants, enabling template-agnostic extraction over heterogeneous document types significantly reducing onboarding time for new document workflows. 
-- Designed a hybrid extraction + intelligent routing system (deterministic KV extraction + LLM fallback via query complexity classifier), reducing LLM token consumption by ~3-50% and improving P95 latency by ~30%, while sustaining 95+% extraction accuracy across semi-structured and unstructured documents.
+- Led architecture and productionization of a multi-tenant, agentic document intelligence platform processing millions of documents/month across dozens of enterprise tenants, enabling template-agnostic extraction over heterogeneous document workflows. 
+- Designed a hybrid extraction + intelligent routing system (deterministic KV extraction + LLM fallback via query complexity classifier), reducing LLM token consumption by ~30-50% vs LLM-only pipeline and achieving P95 latency of 6s, while sustaining 95+% extraction accuracy across semi-structured and unstructured documents.
 - Architected orchestration, reasoning, tool discovery, and human-in-the-loop controls 
 - Established production standards: guardrails, tool gating, evaluation frameworks, monitoring, and observability for agent behavior.
-- Built entity linking & validation layer integrated with internal enterprise systems , improving data consistency and reducing manual review effort across tenants, enabling reliable downstream automation.
+- Built entity linking & validation layer integrated with internal enterprise systems , improving data consistency and reducing manual review effort, enabling reliable downstream automation.
 
 
 ##### RAG Powered PDF Extractive QA Engine
@@ -39,7 +39,6 @@ ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer 
 - Onboarded 8+ internal teams across marketing, e-commerce, and content management
 - Designed Offline ML-based metadata enrichment pipeline  using OCR, object detection, logo recognition and  leading to  tag coverage increase across tenantsfor improved indexing.
 - Implemented high-throughput batch and incremental asset tagging with Kafka, Spark, and distributed inference.
-- Scaled to handle 10K QPS within 800ms latency
 - indexed 1M+ assets with rich metadata through the pipeline
 
 ### Senior Data Scientist
