@@ -17,27 +17,30 @@ ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer 
 ### Sr AI Engineer
 #### Target Corporation (Feb 2021 - Present)
 
-##### Enterprise Agentic Document Intelligence System
+##### Enterprise Agentic Document Intelligence Platform
 
-- Architected multi-agent system for invoice processing with orchestration, reasoning, tool discovery, and human-in-the-loop controls 
+- Led architecture and productionization of a multi-tenant, agentic document intelligence platform processing millions of documents/month across dozens of enterprise tenants, enabling template-agnostic extraction over heterogeneous document types significantly reducing onboarding time for new document workflows. 
+- Designed a hybrid extraction + intelligent routing system (deterministic KV extraction + LLM fallback via query complexity classifier), reducing LLM token consumption by ~3-50% and improving P95 latency by ~30%, while sustaining 95+% extraction accuracy across semi-structured and unstructured documents.
+- Architected orchestration, reasoning, tool discovery, and human-in-the-loop controls 
 - Established production standards: guardrails, tool gating, evaluation frameworks, monitoring, and observability for agent behavior.
-- Image Quality Agent: Detects corrupted scans and improves OCR accuracy by 18%.
-- Layout-Aware LLM Routing: Reduces token consumption by 52% and inference costs by 38%.
-- Key-Value Extraction: Custom LayoutLM tool achieving 92% field extraction accuracy across formats.
+- Built entity linking & validation layer integrated with internal enterprise systems , improving data consistency and reducing manual review effort across tenants, enabling reliable downstream automation.
+
 
 ##### RAG Powered PDF Extractive QA Engine
 
-- Engineered in-memory RAG pipeline with layout-aware semantic chunking, achieving 89% retrieval precision and 94% answer accuracy.
-- Deployed FAISS indexing enabling sub-100ms latency on 50-page PDFs.
+- Engineered RAG pipeline with layout-aware semantic chunking, achieving 89% retrieval precision and improving answer relevance
+- Architected the multi stage retrieval pipeline with Milvus, to query rightly chunked documents based on query intent and layout, and reranking to improving relevance.
 
 ##### Multi-Modal Multi-Tenant Image Search Platform
 
-- Architected multi-modal search platform (text, image, keywords) using Elasticsearch and Milvus achieving 87% relevance over millions of assets.
-- Scaled to handle 10K QPS within 800ms latency
+- Designed and delivered an enterprise-grade multi tenant asset tagging and search platform supporting semantic and hybrid queries over millions of assets.
+- Architected multi-modal hybrid search platform (text, image, keywords) using CLIP embedding with Milvus and Elasticsearch achieving 87% relevance over millions of assets.
 - Multi-tenant infrastructure with data isolation, RBAC, and tenant-specific configs;
-- Onboarded 8+ internal teams across marketing, e-commerce, and content management; processed 100K+ search queries monthly with 92% user satisfaction.
-- Designed onboarding flows reduced onboarding time by 40%.
-- Offline ML-based auto-tagging system achieving 91% precision, 87% recall, and 34% tag coverage increase; indexed 1M+ assets with rich metadata.
+- Onboarded 8+ internal teams across marketing, e-commerce, and content management
+- Designed Offline ML-based metadata enrichment pipeline  using OCR, object detection, logo recognition and  leading to  tag coverage increase across tenantsfor improved indexing.
+- Implemented high-throughput batch and incremental asset tagging with Kafka, Spark, and distributed inference.
+- Scaled to handle 10K QPS within 800ms latency
+- indexed 1M+ assets with rich metadata through the pipeline
 
 ### Senior Data Scientist
 #### Embibe (May 2019 - Jan 2021)
@@ -52,9 +55,9 @@ ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer 
 
 ##### Video Content Moderation & Metadata Enrichment Pipeline
 
-- Deployed NSFW video moderation system reducing inappropriate content by 28%.
-- Reduced manual moderation effort by 75% through ML-based metadata enrichment
-- Built intelligent tagging achieving 91% precision, 87% recall, and 34% coverage increase; processed 5K+ videos daily at within 1500ms latency.
+- Deployed NSFW video moderation system reducing inappropriate content by 98%.
+- Reduced manual moderation effort by 70% through ML-based metadata enrichment
+- Built ML based video tagging models achieving 91% precision, 87% recall 
 - Fine-tuned 3DCNN models on 12 custom categories with ensemble approach combining fine-tuned + zero-shot pre-trained models for emerging categories.
 
 ### Senior Data Scientist
@@ -62,7 +65,7 @@ ML leader with 12+ years building AI solutions in Generative AI, LLMs, Computer 
 
 ##### Catalogue Anomaly Detection Engine
 
-- CV-based CNN system detecting out-of-category product placements, reducing catalogue errors by 12%; classified 1.5M SKUs across 100+ categories at 94% precision.
+- CV-based CNN system detecting out-of-category product placements, reducing catalogue errors by 92%; 
 
 ### Sr. Research Analyst 
 #### Edureka (Dec 2013 - Sep 2015)

@@ -32,32 +32,34 @@ Email: abhay8280@gmail.com | Phone: +91-9731-812-812  </p>
 
 <h4>Target Corporation (Feb 2021 - Present)</h4>
 
-<h5>Enterprise Agentic Document Intelligence System</h5>
+<h5>Enterprise Agentic Document Intelligence Platform</h5>
 
 <ul>
-<li>Architected multi-agent system for invoice processing with orchestration, reasoning, tool discovery, and human-in-the-loop controls </li>
+<li>Led architecture and productionization of a multi-tenant, agentic document intelligence platform processing millions of documents/month across dozens of enterprise tenants, enabling template-agnostic extraction over heterogeneous document types significantly reducing onboarding time for new document workflows. </li>
+<li>Designed a hybrid extraction + intelligent routing system (deterministic KV extraction + LLM fallback via query complexity classifier), reducing LLM token consumption by ~3-50% and improving P95 latency by ~30%, while sustaining 95+% extraction accuracy across semi-structured and unstructured documents.</li>
+<li>Architected orchestration, reasoning, tool discovery, and human-in-the-loop controls </li>
 <li>Established production standards: guardrails, tool gating, evaluation frameworks, monitoring, and observability for agent behavior.</li>
-<li>Image Quality Agent: Detects corrupted scans and improves OCR accuracy by 18%.</li>
-<li>Layout-Aware LLM Routing: Reduces token consumption by 52% and inference costs by 38%.</li>
-<li>Key-Value Extraction: Custom LayoutLM tool achieving 92% field extraction accuracy across formats.</li>
+<li>Built entity linking &amp; validation layer integrated with internal enterprise systems , improving data consistency and reducing manual review effort across tenants, enabling reliable downstream automation.</li>
 </ul>
 
 <h5>RAG Powered PDF Extractive QA Engine</h5>
 
 <ul>
-<li>Engineered in-memory RAG pipeline with layout-aware semantic chunking, achieving 89% retrieval precision and 94% answer accuracy.</li>
-<li>Deployed FAISS indexing enabling sub-100ms latency on 50-page PDFs.</li>
+<li>Engineered RAG pipeline with layout-aware semantic chunking, achieving 89% retrieval precision and improving answer relevance</li>
+<li>Architected the multi stage retrieval pipeline with Milvus, to query rightly chunked documents based on query intent and layout, and reranking to improving relevance.</li>
 </ul>
 
 <h5>Multi-Modal Multi-Tenant Image Search Platform</h5>
 
 <ul>
-<li>Architected multi-modal search platform (text, image, keywords) using Elasticsearch and Milvus achieving 87% relevance over millions of assets.</li>
-<li>Scaled to handle 10K QPS within 800ms latency</li>
+<li>Designed and delivered an enterprise-grade multi tenant asset tagging and search platform supporting semantic and hybrid queries over millions of assets.</li>
+<li>Architected multi-modal hybrid search platform (text, image, keywords) using CLIP embedding with Milvus and Elasticsearch achieving 87% relevance over millions of assets.</li>
 <li>Multi-tenant infrastructure with data isolation, RBAC, and tenant-specific configs;</li>
-<li>Onboarded 8+ internal teams across marketing, e-commerce, and content management; processed 100K+ search queries monthly with 92% user satisfaction.</li>
-<li>Designed onboarding flows reduced onboarding time by 40%.</li>
-<li>Offline ML-based auto-tagging system achieving 91% precision, 87% recall, and 34% tag coverage increase; indexed 1M+ assets with rich metadata.</li>
+<li>Onboarded 8+ internal teams across marketing, e-commerce, and content management</li>
+<li>Designed Offline ML-based metadata enrichment pipeline  using OCR, object detection, logo recognition and  leading to  tag coverage increase across tenantsfor improved indexing.</li>
+<li>Implemented high-throughput batch and incremental asset tagging with Kafka, Spark, and distributed inference.</li>
+<li>Scaled to handle 10K QPS within 800ms latency</li>
+<li>indexed 1M+ assets with rich metadata through the pipeline</li>
 </ul>
 
 <h3>Senior Data Scientist</h3>
@@ -78,9 +80,9 @@ Email: abhay8280@gmail.com | Phone: +91-9731-812-812  </p>
 <h5>Video Content Moderation &amp; Metadata Enrichment Pipeline</h5>
 
 <ul>
-<li>Deployed NSFW video moderation system reducing inappropriate content by 28%.</li>
-<li>Reduced manual moderation effort by 75% through ML-based metadata enrichment</li>
-<li>Built intelligent tagging achieving 91% precision, 87% recall, and 34% coverage increase; processed 5K+ videos daily at within 1500ms latency.</li>
+<li>Deployed NSFW video moderation system reducing inappropriate content by 98%.</li>
+<li>Reduced manual moderation effort by 70% through ML-based metadata enrichment</li>
+<li>Built ML based video tagging models achieving 91% precision, 87% recall </li>
 <li>Fine-tuned 3DCNN models on 12 custom categories with ensemble approach combining fine-tuned + zero-shot pre-trained models for emerging categories.</li>
 </ul>
 
@@ -91,7 +93,7 @@ Email: abhay8280@gmail.com | Phone: +91-9731-812-812  </p>
 <h5>Catalogue Anomaly Detection Engine</h5>
 
 <ul>
-<li>CV-based CNN system detecting out-of-category product placements, reducing catalogue errors by 12%; classified 1.5M SKUs across 100+ categories at 94% precision.</li>
+<li>CV-based CNN system detecting out-of-category product placements, reducing catalogue errors by 92%; </li>
 </ul>
 
 <h3>Sr. Research Analyst</h3>
