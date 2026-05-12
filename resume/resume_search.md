@@ -20,7 +20,7 @@ ML Professional with 12+ years building AI solutions in Generative AI, LLMs, Com
 ##### Enterprise Agentic Document Intelligence Platform
 
 - Led architecture and productionization of a multi-tenant, agentic document intelligence platform processing millions of documents/month across dozens of enterprise tenants, enabling template-agnostic extraction over heterogeneous document workflows. 
-- Designed a hybrid extraction + intelligent routing system (deterministic KV extraction + LLM fallback via query complexity classifier), reducing LLM token consumption by ~30-50% vs LLM-only pipeline and achieving P95 latency of 6s, while sustaining 95+% extraction accuracy across semi-structured and unstructured documents.
+- Designed a hybrid extraction + intelligent routing system (deterministic KV extraction + LLM fallback via query complexity classifier), reducing LLM token consumption by ~30-50% vs LLM-only pipeline and achieving low latency, while sustaining 95+% extraction accuracy across semi-structured and unstructured documents.
 - Architected orchestration, reasoning, tool discovery, and human-in-the-loop controls 
 - Established production standards: guardrails, tool gating, evaluation frameworks, monitoring, and observability for agent behavior.
 - Built entity linking & validation layer integrated with internal enterprise systems , improving data consistency and reducing manual review effort, enabling reliable downstream automation.
